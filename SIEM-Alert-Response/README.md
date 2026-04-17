@@ -1,4 +1,4 @@
-# SIEM Alert Response – Practice Activity
+# SIEM Alert Response 
 
 ## Overview
 This folder contains a cybersecurity training exercise completed as part of the Google Cybersecurity Certificate program. The activity focuses on responding to a simulated SIEM alert involving a suspicious file download linked to a potential indicator of compromise (IOC).
