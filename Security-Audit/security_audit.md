@@ -3,6 +3,8 @@
 ### Objective
 This internal security audit was conducted for Botium Toys, a fictional retail company, as part of the Google Cybersecurity Certificate program. The audit evaluates the organization’s security controls and compliance posture using the NIST Cybersecurity Framework (CSF), focusing on identifying risks, gaps, and areas for improvement.
 
+---
+
 ### Controls & Compliance Summary
 - Access controls: No  
 - Encryption: No  
