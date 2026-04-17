@@ -1,5 +1,6 @@
 ## Professional Statement 
 
+## Overview
 This folder contains my portfolio artifact for the activity:
 **Drafting a Professional Statement** from the Google Cybersecurity Certificate program.
 
