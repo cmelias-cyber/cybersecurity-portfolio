@@ -45,5 +45,3 @@ The incident was successfully identified, contained, and resolved using structur
 - Threat containment and system restoration  
 - Security communication and documentation  
 - Application of incident response playbooks
-
-- - [SIEM Alert Response](siem_alert_response.md) → Incident triage and alert analysis
