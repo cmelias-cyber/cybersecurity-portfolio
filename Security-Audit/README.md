@@ -9,3 +9,9 @@ The audit evaluates the organization’s security controls and compliance postur
 This exercise demonstrates my ability to assess security posture, review compliance requirements, and apply structured frameworks to real-world scenarios.
 
 The findings and checklist results are documented in the security audit file.
+
+---
+
+## Project Files
+
+[Security-Audit] (Security-Audit.md) 
