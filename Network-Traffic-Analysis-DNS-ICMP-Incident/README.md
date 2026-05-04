@@ -30,5 +30,5 @@ The objective is to determine which network protocol and service were impacted a
 
 ## Project Files
 
-* **network-traffic-analysis-dns-icmp.md** → Full incident analysis and findings
+* **Network-Traffic-Analysis-DNS-ICMP.md** → Full incident analysis and findings
 
