@@ -1,2 +1,2 @@
-# cybersecurity-portfolio-overview
+# Cybersecurity Portfolio Overview
 Cybersecurity portfolio documenting hands-on labs, projects, and exercises completed through the Google Cybersecurity Certificate program.
