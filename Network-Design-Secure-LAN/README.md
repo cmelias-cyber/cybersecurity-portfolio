@@ -31,4 +31,4 @@ The goal of this design is to show how network devices are organized to support 
 ## Project Files
 
 * **network-design-secure-lan.md** → Full technical analysis of the network design
-* **network-diagram.png** → Visual network diagram
+
