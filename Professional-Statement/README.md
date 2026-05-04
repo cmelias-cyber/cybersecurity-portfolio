@@ -8,6 +8,8 @@ It includes a short professional statement introducing my strengths, values, and
 
 This document will be updated throughout the program as my skills and knowledge grow. 
 
+---
+
 ## Project Files
 
 - [professional_statement.md](professional_statement.md) → Personal cybersecurity professional statement
