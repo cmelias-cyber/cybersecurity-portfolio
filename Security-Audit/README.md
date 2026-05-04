@@ -14,4 +14,4 @@ The findings and checklist results are documented in the security audit file.
 
 ## Project Files
 
-[Security-Audit] (Security-Audit.md) 
+- [Security-Audit] (Security-Audit.md) 
