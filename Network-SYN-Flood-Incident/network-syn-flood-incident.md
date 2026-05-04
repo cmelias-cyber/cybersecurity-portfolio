@@ -44,7 +44,9 @@ This results in:
 
 ## Conclusion
 
-The incident is consistent with a direct Denial of Service (DoS) SYN flood attack originating from a single IP address. The attacker exploited the TCP handshake mechanism to exhaust server resources and disrupt normal website operations.
+The incident is consistent with a direct Denial of Service (DoS) SYN flood attack originating from a single IP address. The attacker exploited the TCP handshake mechanism to exhaust server resources and disrupt normal website operations. The web server became overwhelmed by a high volume of incomplete connection requests, leading to timeouts, reset responses, and service degradation for legitimate users.
+
+This type of traffic would typically be detected using anomaly-based monitoring of SYN rate and connection completion ratios.
 
 ---
 
