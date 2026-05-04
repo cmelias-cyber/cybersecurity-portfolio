@@ -15,3 +15,7 @@ The goal of this exercise is to demonstrate foundational skills in SOC operation
 
 ## What This Shows to Employers
 This artifact demonstrates my ability to understand and follow structured SOC processes when responding to security alerts, including how to assess potential threats and document incident handling procedures.
+
+## Project Files
+
+- [SIEM Alert Response](siem_alert_response.md) → Incident triage and alert analysis
