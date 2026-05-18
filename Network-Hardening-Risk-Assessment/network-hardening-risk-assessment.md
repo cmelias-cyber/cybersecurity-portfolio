@@ -46,4 +46,8 @@ Short operational recommendations such as:
 - review firewall rules regularly
 
 ## Conclusion
-Short summary of how layered security hardening reduces future breach risk.
+The analysis identified multiple security weaknesses that directly contributed to the data breach, including shared user credentials, a default administrative password, lack of firewall filtering rules, and absence of multifactor authentication.
+
+These vulnerabilities created an environment where unauthorized access was possible with minimal resistance, allowing attackers to compromise customer data and gain control over sensitive systems.
+
+Implementing layered network hardening controls such as MFA, strong password policies, and properly configured firewall rules reduces the attack surface and makes unauthorized access significantly more difficult. When combined, these measures improve overall network resilience and help prevent similar breaches in the future.
