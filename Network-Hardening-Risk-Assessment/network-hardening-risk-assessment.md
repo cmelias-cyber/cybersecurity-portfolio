@@ -3,9 +3,9 @@
 ## Objective
 The objective of this assessment is to analyze security weaknesses identified after a data breach at a social media organization and recommend network hardening measures to reduce the risk of future attacks.
 
-The investigation identified several vulnerabilities, including shared employee passwords, use of a default administrator password, lack of firewall filtering rules, and absence of multifactor authentication (MFA). These weaknesses increased the risk of unauthorized access and exposure of sensitive customer information.
+The investigation identified several vulnerabilities, including shared employee passwords, use of a default administrator password, lack of firewall filtering rules, and absence of multifactor authentication (MFA). These weaknesses increased the risk of unauthorized access and exposure of sensitive customer information. This assessment evaluates the organization’s security risks and proposes hardening controls designed to strengthen network security, improve access control, and reduce the organization’s overall attack surface.posture and reduce the risk of future breaches.
 
-This assessment evaluates the organization’s security risks and proposes hardening controls designed to strengthen network security, improve access control, and reduce the organization’s overall attack surface.posture and reduce the risk of future breaches.
+---
 
 ## Identified Vulnerabilities
 - Shared employee passwords
