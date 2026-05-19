@@ -1,7 +1,11 @@
 # Network Hardening Risk Assessment
 
 ## Scenario
-Brief summary of the organization, the breach, and the identified vulnerabilities.
+A social media organization experienced a major data breach that exposed customers’ personal information, including names and addresses. Following the incident, a security assessment identified several weaknesses in the organization’s network security practices and access controls.
+
+The investigation revealed that employees were sharing passwords, the database administrator account still used a default password, firewall traffic filtering rules were not properly configured, and multifactor authentication (MFA) had not been implemented. These vulnerabilities increased the likelihood of unauthorized access and placed sensitive customer data at risk.
+
+The purpose of this assessment is to evaluate the identified security weaknesses and recommend network hardening measures that can improve the organization’s overall security posture and reduce the risk of future breaches.
 
 ## Identified Vulnerabilities
 - Shared employee passwords
