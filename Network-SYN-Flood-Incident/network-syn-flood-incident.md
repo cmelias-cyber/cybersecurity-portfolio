@@ -1,5 +1,9 @@
 # Cybersecurity Incident Report: SYN Flood Attack Analysis
 
+##Objective
+
+The objective of this report is to analyze the network interruption affecting the website, identify the type of cyberattack involved, explain how the attack impacted server availability, and recommend mitigation strategies to reduce future service disruptions.
+
 ---
 
 ## Section 1: Identify the type of attack that may have caused this network interruption
