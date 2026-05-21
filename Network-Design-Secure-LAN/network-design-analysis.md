@@ -1,6 +1,6 @@
 # Network Design Analysis: Secure Local Area Network (LAN)
 
-## Incident Summary
+## Executive Summary
 
 The purpose of this project was to design a secure Local Area Network (LAN) by correctly placing networking devices and security controls. The design focuses on maintaining connectivity while protecting internal systems from unauthorized access.
 
