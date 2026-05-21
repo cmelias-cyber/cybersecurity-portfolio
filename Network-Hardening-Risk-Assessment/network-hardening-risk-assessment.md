@@ -1,7 +1,9 @@
 # Network Hardening Risk Assessment
 
-## Assessment Objective
-This assessment evaluates key security weaknesses identified following a data breach at a social media organization. The focus is on analyzing vulnerabilities in authentication, access control, and network security controls, and recommending network hardening measures to reduce the likelihood and impact of future attacks.
+## Executive Summary
+The organization experienced a data breach resulting from multiple security control weaknesses within its authentication, access management, and network configuration systems. Key issues included shared user credentials, a default administrator password, missing firewall filtering rules, and lack of multifactor authentication (MFA).
+
+These vulnerabilities increased the risk of unauthorized access and exposed sensitive systems to credential-based attacks and external exploitation. This report analyzes the identified security gaps and provides network hardening recommendations to improve authentication security, strengthen access control, and reduce the organization’s overall attack surface.
 
 ---
 
