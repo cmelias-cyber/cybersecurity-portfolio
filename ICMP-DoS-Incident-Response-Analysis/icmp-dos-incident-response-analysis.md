@@ -1,6 +1,6 @@
 # ICMP DoS Incident Response Analysis (NIST CSF Report)
 
-## Incident Context
+## Incident Summary
 The organization experienced a service disruption caused by a distributed denial-of-service (DDoS) attack targeting internal network availability. The attack involved a high volume of ICMP packets flooding network infrastructure, causing service degradation and temporary outage of critical internal systems.
 
 The incident was detected when network services became unresponsive and normal traffic could not access internal resources. The cybersecurity team responded by blocking ICMP traffic, disabling non-critical services, and restoring essential systems.
