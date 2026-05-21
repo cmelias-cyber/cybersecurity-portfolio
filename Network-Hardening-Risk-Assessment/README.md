@@ -20,14 +20,12 @@ The project applies foundational cybersecurity concepts related to password secu
 
 ## Related Security Concepts
 - Defense in depth
-- Least privilege
-- Access control
+- Least privilege access control
 - Network segmentation
 - Credential security
-- Security hardening
+- Security hardening principles
 
 ---
 
-## Project Files
-
-- [network-hardening-risk-assessment.md](network-hardening-risk-assessment.md) → Security assessment and network hardening recommendations
+## Files
+- `network-hardening-risk-assessment.md` → Full risk assessment and remediation recommendations
