@@ -31,4 +31,4 @@ This project demonstrates practical skills in network traffic analysis, firewall
 ---
 
 ## Project Files
-- `icmp-dos-incident-response-analysis.md` → Full incident report and NIST CSF breakdown
+- [icmp-dos-incident-response-analysis.md](icmp-dos-incident-response-analysis.md) → Full incident report and NIST CSF breakdown
