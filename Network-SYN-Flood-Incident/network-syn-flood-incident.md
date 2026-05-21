@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of this report is to analyze the network interruption affecting the website, identify the type of cyberattack involved, explain how the attack impacted server availability, and recommend mitigation strategies to reduce future service disruptions.
+The objective of this analysis is to examine a suspected SYN flood attack impacting web service availability, explain its effect on TCP connection handling, and outline mitigation strategies to improve resilience against similar denial-of-service attacks.
 
 ---
 
