@@ -1,17 +1,20 @@
 File Permissions in Linux (Authorization Review)
-Executive Summary
+=================================================
 
-As a security professional supporting a research team, I was asked to review the permissions on their shared projects directory and confirm they matched the access each user should actually have. Using Linux commands, I checked current permissions (including hidden files), identified where access was broader than intended, and used chmod to correct three separate issues: an overly permissive shared file, an archived hidden file, and a personal drafts directory.
+Executive Summary
+------------------
+As a security professional supporting a research team, I was asked to review the permissions on their shared `projects` directory and confirm they matched the access each user should actually have. Using Linux commands, I checked current permissions (including hidden files), identified where access was broader than intended, and used `chmod` to correct three separate issues: an overly permissive shared file, an archived hidden file, and a personal drafts directory.
 
 Check File and Directory Details
+----------------------------------
+To review the current permissions on the `projects` directory, including hidden files, I used `ls -la`, which lists all directory contents (the `-a` flag reveals hidden files, which begin with a `.`) along with their long-format permission details.
 
-To review the current permissions on the projects directory, including hidden files, I used ls -la, which lists all directory contents (the -a flag reveals hidden files, which begin with a .) along with their long-format permission details.
-
-bash
+```bash
 researcher2@research-team:~/projects$ ls -la
+```
 
-Output:
-
+**Output:**
+```
 total 24
 drwxrwxr-x 3 researcher2 research_team 4096 Jun  5 09:12 .
 drwxr-xr-x 6 researcher2 research_team 4096 Jun  5 09:10 ..
@@ -19,75 +22,82 @@ drwxr-xr-x 6 researcher2 research_team 4096 Jun  5 09:10 ..
 -rw-r--r-- 1 researcher2 research_team 1084 Jun  5 09:11 project_x.txt
 -rw-rw-r-- 1 researcher2 research_team  842 Jun  5 09:11 .project_x.txt
 drwxrwxr-x 2 researcher2 research_team 4096 Jun  5 09:12 drafts
+```
+
 Describe the Permissions String
+---------------------------------
+Taking `edit_history.txt` as the example, its permission string is:
 
-Taking edit_history.txt as the example, its permission string is:
-
+```
 -rw-rw-rw-
+```
 
-This 10-character string is the output of ls -l (or ls -la) and shows what type of file it is and who is authorized to do what with it. Each character, or group of characters, has a specific meaning:
+This 10-character string is the output of `ls -l` (or `ls -la`) and shows what type of file it is and who is authorized to do what with it. Each character, or group of characters, has a specific meaning:
 
-Position	Value	Meaning
-1	-	File type, - is a regular file, d would indicate a directory
-2-4	rw-	Owner permissions: read and write, no execute
-5-7	rw-	Group permissions: read and write, no execute
-8-10	rw-	Other permissions: read and write, no execute
+| Position | Value | Meaning |
+|---|---|---|
+| 1 | `-` | File type, `-` is a regular file, `d` would indicate a directory |
+| 2-4 | `rw-` | Owner permissions: read and write, no execute |
+| 5-7 | `rw-` | Group permissions: read and write, no execute |
+| 8-10 | `rw-` | Other permissions: read and write, no execute |
 
-In this case, edit_history.txt grants read and write access to everyone on the system: the owner, the group, and all other users, which is far broader than it should be.
+In this case, `edit_history.txt` grants read and write access to everyone on the system: the owner, the group, and all other users, which is far broader than it should be.
 
 Change File Permissions
+-------------------------
+The organization's policy is that no one outside the file owner should have write access to any file. Based on the string above, `edit_history.txt` gives write access to the group and to other, which violates that policy. I used `chmod` to remove write access for group and other, leaving only the owner with write permission:
 
-The organization's policy is that no one outside the file owner should have write access to any file. Based on the string above, edit_history.txt gives write access to the group and to other, which violates that policy. I used chmod to remove write access for group and other, leaving only the owner with write permission:
-
-bash
+```bash
 researcher2@research-team:~/projects$ chmod go-w edit_history.txt
+```
 
-Verifying the change:
-
-bash
+**Verifying the change:**
+```bash
 researcher2@research-team:~/projects$ ls -la edit_history.txt
 -rw-r--r-- 1 researcher2 research_team 512 Jun  5 09:11 edit_history.txt
+```
 
-go-w is symbolic mode syntax: g and o target the group and other categories, - removes a permission, and w specifies write. After the change, only researcher2 (the owner) retains write access; group and other are limited to read-only.
+`go-w` is symbolic mode syntax: `g` and `o` target the group and other categories, `-` removes a permission, and `w` specifies write. After the change, only `researcher2` (the owner) retains write access; group and other are limited to read-only.
 
 Change File Permissions on a Hidden File
-
-.project_x.txt is a hidden file. In Linux, any file or directory whose name begins with a . is hidden from a standard ls listing and only appears when the -a flag is used. This file represents an archived project that the research team no longer actively edits, so per the scenario it should have no write access for anyone, while the owner and group retain read access.
+-------------------------------------------
+`.project_x.txt` is a hidden file. In Linux, any file or directory whose name begins with a `.` is hidden from a standard `ls` listing and only appears when the `-a` flag is used. This file represents an archived project that the research team no longer actively edits, so per the scenario it should have no write access for anyone, while the owner and group retain read access.
 
 I used numeric (octal) mode to set this precisely:
 
-bash
+```bash
 researcher2@research-team:~/projects$ chmod 440 .project_x.txt
+```
 
-Verifying the change:
-
-bash
+**Verifying the change:**
+```bash
 researcher2@research-team:~/projects$ ls -la .project_x.txt
 -r--r----- 1 researcher2 research_team 842 Jun  5 09:11 .project_x.txt
+```
 
-In octal notation, each digit represents read (4), write (2), and execute (1) permissions, summed for owner, group, and other respectively. 440 breaks down as:
-
-4 (owner): read only
-4 (group): read only
-0 (other): no access at all
+In octal notation, each digit represents read (4), write (2), and execute (1) permissions, summed for owner, group, and other respectively. `440` breaks down as:
+* 4 (owner): read only
+* 4 (group): read only
+* 0 (other): no access at all
 
 This satisfies the requirement: the archived file can still be read by the owner and the team, but it can no longer be modified by anyone, and other users on the system have no access to it at all.
 
 Change Directory Permissions
+-------------------------------
+The `drafts` directory and its contents belong to `researcher2`, and only `researcher2` should be able to access it, not the rest of the group, and not other users. I used `chmod` to restrict the directory to owner-only access:
 
-The drafts directory and its contents belong to researcher2, and only researcher2 should be able to access it, not the rest of the group, and not other users. I used chmod to restrict the directory to owner-only access:
-
-bash
+```bash
 researcher2@research-team:~/projects$ chmod 700 drafts
+```
 
-Verifying the change:
-
-bash
+**Verifying the change:**
+```bash
 researcher2@research-team:~/projects$ ls -la
 drwx------ 2 researcher2 research_team 4096 Jun  5 09:12 drafts
+```
 
-700 grants the owner full read, write, and execute permissions (7 = 4+2+1), while group and other receive 0: no read, write, or execute. Execute permission on a directory controls whether a user can enter (cd into) it or access its contents at all, so removing it for group and other fully locks out everyone except researcher2, even from listing what's inside.
+`700` grants the owner full read, write, and execute permissions (7 = 4+2+1), while group and other receive `0`: no read, write, or execute. Execute permission on a directory controls whether a user can enter (`cd` into) it or access its contents at all, so removing it for group and other fully locks out everyone except `researcher2`, even from listing what's inside.
 
 Summary
-
-Working through this scenario, I audited the projects directory using ls -la, interpreted the 10-character permission strings to identify where access was broader than intended, and used chmod in both symbolic and numeric modes to correct three separate authorization issues: an overly permissive shared file, a hidden archived file that needed to be locked to read-only, and a personal drafts directory that needed to be restricted to its owner. Together, these changes bring the research team's file system in line with the organization's least-privilege policy, ensuring authorized users retain the access they need while unauthorized read and write access is fully removed.
+--------
+Working through this scenario, I audited the `projects` directory using `ls -la`, interpreted the 10-character permission strings to identify where access was broader than intended, and used `chmod` in both symbolic and numeric modes to correct three separate authorization issues: an overly permissive shared file, a hidden archived file that needed to be locked to read-only, and a personal drafts directory that needed to be restricted to its owner. Together, these changes bring the research team's file system in line with the organization's least-privilege policy, ensuring authorized users retain the access they need while unauthorized read and write access is fully removed.
