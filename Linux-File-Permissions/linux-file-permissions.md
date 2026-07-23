@@ -2,7 +2,7 @@
 
 ## Project Description (Executive Summary)
 
-The purpose of this project was to examine and update Linux file and directory permissions to ensure that system authorization matched organizational security requirements. I reviewed existing permissions, identified unauthorized access, and used Linux commands to enforce the principle of least privilege.
+The purpose of this project was to examine and update Linux file and directory permissions to ensure that system authorization matched organizational security requirements. I reviewed the permissions assigned to the user, group, and other users to verify that they matched the organization's authorization requirements and security policies.
 
 I then used the `chmod` command to remove unauthorized access, secure an archived hidden file, and ensure that only the file owner could access a sensitive directory. These changes applied the principle of least privilege and helped protect the organization’s research data.
 
@@ -16,7 +16,7 @@ ls -la
 
 The `ls` command lists the contents of a directory. The `-l` option displays detailed information, including file permissions, ownership, file size, and modification dates. The `-a` option includes hidden files, whose names begin with a period.
 
-The command displayed the following permission strings:
+The `ls -la` command displayed a detailed listing of the directory contents. The first column of the output contains a 10-character permission string for each file and directory, followed by the file or directory name.
 
 ```text
 -rw-rw-rw- project_k.txt
@@ -26,10 +26,11 @@ The command displayed the following permission strings:
 -rw--w---- .project_x.txt
 drwx--x--- drafts
 ```
-
-The output showed five files, including the hidden file `.project_x.txt`, and one subdirectory named `drafts`.
+The output also includes the current directory (`.`) and the parent directory (`..`), which are displayed because of the `-a` option. These entries help identify the current location within the file system while ensuring that hidden files are also listed. The directory contains five project files, one hidden file (`.project_x.txt`), and one subdirectory (`drafts`).
 
 > Add a screenshot of the `ls -la` command and its output here if available.
+
+## Describe the Permissions String
 
 ## Describe the Permissions String
 
@@ -52,7 +53,7 @@ The remaining nine characters are divided into three groups:
 rw- rw- rw-
 ```
 
-The first group represents permissions for the file owner, the second represents permissions for the group, and the third represents permissions for all other users.
+The first group represents the permissions assigned to the file owner, the second group represents the file's assigned group, and the third group represents all other users on the system.
 
 Each group can contain the following characters:
 
