@@ -204,7 +204,7 @@ Through this project, the following skills were strengthened:
 * Verifying permission changes
 * Documenting Linux security procedures
 
-## Summary
+## Conclusion
 
 I used `ls -la` to examine all files and directories in the projects directory, including hidden files. I interpreted the permission strings and used `chmod` to remove unauthorized write access from `project_k.txt`, assign appropriate read-only permissions to `.project_x.txt`, and restrict the `drafts` directory so that only its owner could access it.
 
