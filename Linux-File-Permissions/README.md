@@ -27,6 +27,6 @@ The goal of the project was to ensure that users had only the access required fo
 
 ## Project Files
 
-* `linux-file-permissions.md` → Full technical analysis of the permission review and authorization changes
-* Command screenshots may be included as supporting evidence
+- [`linux-file-permissions.md`](./linux-file-permissions.md) → Full technical analysis of the permission review and authorization changes
+- Command screenshots may be included as supporting evidence
 
