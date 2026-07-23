@@ -32,8 +32,6 @@ The output also includes the current directory (`.`) and the parent directory (`
 
 ## Describe the Permissions String
 
-## Describe the Permissions String
-
 Linux represents permissions using a 10-character string. For example:
 
 ```text
