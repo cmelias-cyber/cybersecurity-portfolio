@@ -1,8 +1,8 @@
 # File Permissions in Linux
 
-## Project Description
+## Project Description (Executive Summary)
 
-The purpose of this project was to examine and update file and directory permissions for a research team using Linux commands. I reviewed the authorization assigned to the user, group, and other users and compared the existing permissions with the organization’s security requirements.
+The purpose of this project was to examine and update Linux file and directory permissions to ensure that system authorization matched organizational security requirements. I reviewed existing permissions, identified unauthorized access, and used Linux commands to enforce the principle of least privilege.
 
 I then used the `chmod` command to remove unauthorized access, secure an archived hidden file, and ensure that only the file owner could access a sensitive directory. These changes applied the principle of least privilege and helped protect the organization’s research data.
 
