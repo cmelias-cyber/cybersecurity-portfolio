@@ -210,7 +210,7 @@ Through this project, the following skills were strengthened:
 * Identifying devices for targeted security updates
 * Documenting technical findings
 
-## Summary
+## Conclusion
 
 I used SQL filters to investigate login activity and retrieve employee device information from the `log_in_attempts` and `employees` tables. I filtered failed after-hours logins, examined activity from specific dates, excluded login attempts originating in Mexico, and identified employees requiring different security updates.
 
