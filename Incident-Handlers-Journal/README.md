@@ -6,7 +6,7 @@ This project contains an incident handler's journal that documents cybersecurity
 
 Each journal entry applies structured incident response documentation and captures observations, methodologies, lessons learned, and opportunities for improving future incident response efforts. Beginning with a ransomware incident affecting a healthcare organization, the journal will continue to expand as additional security scenarios are analyzed, creating a comprehensive record of technical growth and incident response experience.
 
-Accurate documentation is an essential responsibility of cybersecurity professionals because it supports investigations, facilitates communication among stakeholders, preserves evidence, and contributes to continuous improvement of an organization's incident response capabilities. This journal serves as a professional record of incident analysis and demonstrates the importance of clear, organized reporting throughout the incident response lifecycle.
+Accurate documentation is an essential responsibility of cybersecurity professionals because it supports investigations, facilitates communication among stakeholders, preserves evidence, and contributes to the continuous improvement of an organization's incident response capabilities. This journal serves as a professional record of incident analysis and demonstrates the importance of clear, organized reporting throughout the incident response lifecycle.
 
 ---
 
