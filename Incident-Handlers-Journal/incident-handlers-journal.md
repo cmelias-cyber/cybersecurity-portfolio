@@ -16,8 +16,7 @@ This journal entry documents a simulated ransomware incident affecting a small U
 
 # Tools Used
 
-No specialized cybersecurity software was required for this activity.
-
+No specialized cybersecurity software was required for this activity. The incident was analyzed using the provided scenario details, incident documentation, and the 5 W's (Who, What, When, Where, and Why) incident analysis framework.
 ## Methodologies
 
 - Incident Handler's Journal
