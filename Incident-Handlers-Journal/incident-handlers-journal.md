@@ -193,7 +193,7 @@ This journal entry documents the investigation of a suspicious file hash using V
 
 **VirusTotal**
 
-VirusTotal is a cloud-based threat intelligence platform that analyzes suspicious files, URLs, domains, IP addresses, and file hashes using results from numerous security vendors and community intelligence. During this activity, VirusTotal was used to investigate a SHA-256 file hash, review vendor detection results, examine malware behavior, and identify additional indicators of compromise associated with the malicious file. :contentReference[oaicite:1]{index=1}
+VirusTotal is a cloud-based threat intelligence platform that analyzes suspicious files, URLs, domains, IP addresses, and file hashes using results from numerous security vendors and community intelligence. During this activity, VirusTotal was used to investigate a SHA-256 file hash, review vendor detection results, examine malware behavior, and identify additional indicators of compromise associated with the malicious file.
 
 ## Methodologies
 
@@ -215,13 +215,13 @@ An unknown malicious actor distributed a password-protected malicious spreadshee
 
 ## What
 
-An employee downloaded and opened the malicious attachment, resulting in the execution of a malicious payload. An intrusion detection system later detected unauthorized executable files and generated an alert for the Security Operations Center (SOC). :contentReference[oaicite:2]{index=2}
+An employee downloaded and opened the malicious attachment, resulting in the execution of a malicious payload. An intrusion detection system later detected unauthorized executable files and generated an alert for the Security Operations Center (SOC). 
 
 ---
 
 ## When
 
-The employee received the email at **1:11 p.m.**, opened the attachment at **1:13 p.m.**, unauthorized executable files appeared at **1:15 p.m.**, and the SOC received an alert at **1:20 p.m.** :contentReference[oaicite:3]{index=3}
+The employee received the email at **1:11 p.m.**, opened the attachment at **1:13 p.m.**, unauthorized executable files appeared at **1:15 p.m.**, and the SOC received an alert at **1:20 p.m.** 
 
 ---
 
@@ -233,7 +233,7 @@ The incident occurred on an employee's workstation within a financial services o
 
 ## Why
 
-The phishing email successfully convinced the employee to download and execute a password-protected malicious attachment. The investigation used VirusTotal to validate the malicious file hash, identify related indicators of compromise, and support further incident detection and response activities. :contentReference[oaicite:5]{index=5}
+The phishing email successfully convinced the employee to download and execute a password-protected malicious attachment. The investigation used VirusTotal to validate the malicious file hash, identify related indicators of compromise, and support further incident detection and response activities. 
 
 ---
 
