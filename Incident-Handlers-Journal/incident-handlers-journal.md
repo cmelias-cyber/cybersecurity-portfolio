@@ -185,7 +185,7 @@ During this activity, a packet capture file containing web browsing traffic was 
 
 # Project Description (Executive Summary)
 
-This journal entry documents the investigation of a suspicious file hash using VirusTotal, a threat intelligence platform widely used by security analysts to identify malicious files and associated indicators of compromise (IoCs). The objective of this activity was to validate a security alert, evaluate the file's maliciousness, and identify additional indicators that could support future detection and response efforts. This investigation aligns with the **Detection and Analysis** phase of the NIST Incident Response Lifecycle, where analysts validate alerts, assess potential threats, and gather evidence to determine the scope and impact of an incident. :contentReference[oaicite:0]{index=0}
+This journal entry documents the investigation of a suspicious file hash using VirusTotal, a threat intelligence platform widely used by security analysts to identify malicious files and associated indicators of compromise (IoCs). The objective of this activity was to validate a security alert, evaluate the file's maliciousness, and identify additional indicators that could support future detection and response efforts. This investigation aligns with the **Detection and Analysis** phase of the NIST Incident Response Lifecycle, where analysts validate alerts, assess potential threats, and gather evidence to determine the scope and impact of an incident. 
 
 ---
 
