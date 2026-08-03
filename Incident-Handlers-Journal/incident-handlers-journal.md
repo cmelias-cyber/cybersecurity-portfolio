@@ -10,7 +10,7 @@
 
 # Project Description (Executive Summary)
 
-This journal entry documents a simulated ransomware incident affecting a small U.S. healthcare clinic. The purpose of this activity was to practice structured incident documentation using the 5 W's framework (Who, What, When, Where, and Why) to capture the essential details of a cybersecurity incident. Effective documentation is a critical component of the incident response lifecycle because it supports investigations, facilitates communication among stakeholders, preserves key findings, and provides a historical record for future security incidents.
+This journal entry documents a simulated ransomware incident affecting a small U.S. healthcare clinic. The purpose of this activity was to practice structured incident documentation using the 5 W's framework (Who, What, When, Where, and Why) to capture the essential details of a cybersecurity incident. Effective documentation is a critical component of the incident response lifecycle because it supports investigations, facilitates communication among stakeholders, preserves key findings, and provides a historical record for future security incidents. 
 
 **This entry represents the first record in an ongoing incident handler's journal that will document security incidents, observations, and lessons learned throughout the incident response course.**
 
