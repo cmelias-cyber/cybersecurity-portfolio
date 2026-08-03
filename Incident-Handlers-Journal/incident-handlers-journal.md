@@ -98,3 +98,81 @@ The attackers successfully compromised the organization's network through phishi
 - The 5 W's framework provides a structured and repeatable method for recording and communicating incident details.
 - Ransomware attacks frequently originate from phishing campaigns and can rapidly disrupt critical business operations.
 - Maintaining detailed incident journals supports future investigations, strengthens organizational knowledge, and improves incident response readiness.
+
+
+---
+
+# Journal Entry #2
+
+**Date:** August 2, 2026
+
+---
+
+# Project Description (Executive Summary)
+
+This journal entry documents the analysis of a packet capture (PCAP) file using Wireshark, a graphical network protocol analyzer widely used during security investigations. The objective of this activity was to develop foundational network traffic analysis skills by examining packet headers, protocol layers, and communication patterns. This exercise aligns with the Detection and Analysis phase of the NIST Incident Response Lifecycle, where network traffic is examined to validate alerts, identify suspicious activity, and better understand communications between systems.
+
+---
+
+# Tools Used
+
+**Wireshark**
+
+Wireshark is a graphical network protocol analyzer that enables security analysts to capture, inspect, and analyze network traffic. During this activity, Wireshark was used to open and examine a packet capture (PCAP) file, inspect packet structures across multiple protocol layers, and apply display filters to isolate relevant traffic for analysis.
+
+## Methodologies
+
+- Network Traffic Analysis
+- Packet Inspection
+- Protocol Analysis
+- Display Filtering
+- Detection and Analysis (NIST Incident Response Lifecycle)
+
+---
+
+# Activity Summary
+
+During this activity, a packet capture file containing web browsing traffic was analyzed using Wireshark. Display filters were applied to isolate specific IP addresses, MAC addresses, DNS traffic, TCP communications, and application-layer data. Individual packets were examined to better understand protocol behavior across the Ethernet, IPv4, TCP, and DNS layers, demonstrating how packet inspection can support incident investigations and network troubleshooting.
+
+---
+
+# Additional Notes
+
+## Observations
+
+- Display filters significantly improve the efficiency of packet analysis by narrowing large packet captures to relevant network traffic.
+- Examining protocol layers individually provides valuable insight into how data is encapsulated and transmitted across a network.
+- DNS queries, TCP sessions, and HTTP communications each reveal different aspects of network behavior that can assist during incident investigations.
+- Packet analysis is a fundamental skill for validating alerts and identifying suspicious network activity.
+
+## Questions for Further Investigation
+
+1. How can packet analysis be combined with SIEM data to accelerate incident investigations?
+2. What indicators within packet captures commonly suggest malicious network activity?
+3. How does encrypted traffic affect the visibility available during packet analysis?
+
+---
+
+# Key Skills Demonstrated
+
+- Wireshark Navigation
+- Network Traffic Analysis
+- Packet Inspection
+- Protocol Analysis
+- Display Filtering
+- TCP/IP Fundamentals
+- DNS Analysis
+- Technical Investigation
+- Critical Thinking
+
+---
+
+# Key Takeaways
+
+- Wireshark provides detailed visibility into network communications at multiple protocol layers.
+- Packet inspection enables analysts to identify communication patterns and validate network activity.
+- Display filters allow analysts to efficiently isolate relevant packets within large network captures.
+- Understanding packet structure is an essential skill for incident detection, forensic investigations, and network security analysis.
+
+
+
