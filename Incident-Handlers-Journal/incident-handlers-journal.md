@@ -104,7 +104,7 @@ The attackers successfully compromised the organization's network through phishi
 
 # Journal Entry #2
 
-**Date:** August 2, 2026
+**Date:** July 31, 2026
 
 ---
 
@@ -173,6 +173,107 @@ During this activity, a packet capture file containing web browsing traffic was 
 - Packet inspection enables analysts to identify communication patterns and validate network activity.
 - Display filters allow analysts to efficiently isolate relevant packets within large network captures.
 - Understanding packet structure is an essential skill for incident detection, forensic investigations, and network security analysis.
+
+
+---
+
+# Journal Entry #3
+
+**Date:** August 1, 2026
+
+---
+
+# Project Description (Executive Summary)
+
+This journal entry documents the investigation of a suspicious file hash using VirusTotal, a threat intelligence platform widely used by security analysts to identify malicious files and associated indicators of compromise (IoCs). The objective of this activity was to validate a security alert, evaluate the file's maliciousness, and identify additional indicators that could support future detection and response efforts. This investigation aligns with the **Detection and Analysis** phase of the NIST Incident Response Lifecycle, where analysts validate alerts, assess potential threats, and gather evidence to determine the scope and impact of an incident. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Tools Used
+
+**VirusTotal**
+
+VirusTotal is a cloud-based threat intelligence platform that analyzes suspicious files, URLs, domains, IP addresses, and file hashes using results from numerous security vendors and community intelligence. During this activity, VirusTotal was used to investigate a SHA-256 file hash, review vendor detection results, examine malware behavior, and identify additional indicators of compromise associated with the malicious file. :contentReference[oaicite:1]{index=1}
+
+## Methodologies
+
+- Threat Intelligence Analysis
+- Indicator of Compromise (IoC) Identification
+- Malware Investigation
+- Detection and Analysis (NIST Incident Response Lifecycle)
+- Pyramid of Pain Framework
+
+---
+
+# Incident Summary (5 W's)
+
+## Who
+
+An unknown malicious actor distributed a password-protected malicious spreadsheet attachment through a phishing email targeting an employee at a financial services company.
+
+---
+
+## What
+
+An employee downloaded and opened the malicious attachment, resulting in the execution of a malicious payload. An intrusion detection system later detected unauthorized executable files and generated an alert for the Security Operations Center (SOC). :contentReference[oaicite:2]{index=2}
+
+---
+
+## When
+
+The employee received the email at **1:11 p.m.**, opened the attachment at **1:13 p.m.**, unauthorized executable files appeared at **1:15 p.m.**, and the SOC received an alert at **1:20 p.m.** :contentReference[oaicite:3]{index=3}
+
+---
+
+## Where
+
+The incident occurred on an employee's workstation within a financial services organization after a malicious email attachment was executed. :contentReference[oaicite:4]{index=4}
+
+---
+
+## Why
+
+The phishing email successfully convinced the employee to download and execute a password-protected malicious attachment. The investigation used VirusTotal to validate the malicious file hash, identify related indicators of compromise, and support further incident detection and response activities. :contentReference[oaicite:5]{index=5}
+
+---
+
+# Additional Notes
+
+## Observations
+
+- Threat intelligence platforms significantly improve the efficiency of malware investigations by aggregating analysis from multiple security vendors.
+- File hashes provide reliable indicators for identifying known malicious files across different security tools.
+- Investigating related indicators of compromise strengthens an organization's ability to detect similar threats in the future.
+- The Pyramid of Pain demonstrates that higher-level indicators, such as attacker tactics and techniques, are generally more difficult for adversaries to modify than simple file hashes.
+
+## Questions for Further Investigation
+
+1. Which additional indicators of compromise should be incorporated into security monitoring and detection rules?
+2. Could enhanced email filtering or security awareness training have prevented the malicious attachment from being executed?
+3. How can threat intelligence gathered from VirusTotal improve future incident response investigations?
+
+---
+
+# Key Skills Demonstrated
+
+- Threat Intelligence Analysis
+- Malware Investigation
+- VirusTotal Analysis
+- Indicator of Compromise (IoC) Identification
+- SHA-256 Hash Analysis
+- Incident Investigation
+- Threat Assessment
+- Security Documentation
+- Critical Thinking
+
+---
+
+# Key Takeaways
+
+- Threat intelligence platforms accelerate incident investigations by providing community-driven malware analysis.
+- File hashes serve as valuable indicators of compromise for identifying known malicious artifacts.
+- Combining multiple sources of threat intelligence improves confidence when validating security alerts.
+- Understanding indicators of compromise and the Pyramid of Pain strengthens an analyst's ability to detect and respond to future attacks.
 
 
 
