@@ -275,5 +275,77 @@ The phishing email successfully convinced the employee to download and execute a
 - Combining multiple sources of threat intelligence improves confidence when validating security alerts.
 - Understanding indicators of compromise and the Pyramid of Pain strengthens an analyst's ability to detect and respond to future attacks.
 
+---
+
+# Journal Entry #4
+
+**Date:** August 3, 2026
+
+---
+
+# Project Description (Executive Summary)
+
+This journal entry documents the review and finalization of an incident handler's journal developed throughout the Google Cybersecurity Professional Certificate. The objective of this activity was to review previous incident investigations, improve documentation quality, ensure completeness, and consolidate technical findings into a single professional reference. This activity aligns with the **Post-Incident Activity** phase of the NIST Incident Response Lifecycle, where documentation is reviewed, lessons learned are captured, and opportunities for continuous improvement are identified.
+
+---
+
+# Tools Used
+
+No specialized cybersecurity software was required for this activity.
+
+The journal was reviewed using previously completed incident investigations, technical analyses, and documentation produced throughout the course. The focus of this activity was on improving documentation quality, maintaining consistency across journal entries, and organizing findings into a professional incident response reference.
+
+## Methodologies
+
+- Incident Documentation Review
+- Lessons Learned
+- Continuous Improvement
+- Post-Incident Activity (NIST Incident Response Lifecycle)
+- Technical Documentation
+
+---
+
+# Activity Summary
+
+The incident handler's journal was reviewed to verify the accuracy, completeness, and consistency of all previous entries. Existing documentation was refined by correcting formatting, expanding technical explanations, identifying the applicable NIST Incident Response Lifecycle phases, and organizing the journal into a professional portfolio artifact that demonstrates incident response knowledge and technical growth.
+
+---
+
+# Additional Notes
+
+## Observations
+
+- Consistent documentation improves communication during incident response and supports future investigations.
+- Reviewing previous work helped identify opportunities to improve technical writing and strengthen incident documentation.
+- Organizing multiple investigations into a single journal creates a valuable professional reference that demonstrates continuous learning.
+
+## Questions for Future Development
+
+1. How can future incident journals be expanded to include more complex investigations and enterprise security tools?
+2. Which documentation practices are most valuable during real-world incident response engagements?
+3. How can standardized documentation improve collaboration between SOC analysts and incident responders?
+
+---
+
+# Key Skills Demonstrated
+
+- Incident Documentation
+- Technical Writing
+- Documentation Review
+- Lessons Learned
+- Post-Incident Analysis
+- Continuous Improvement
+- Incident Response Lifecycle
+- Professional Portfolio Development
+
+---
+
+# Key Takeaways
+
+- Well-maintained documentation is a critical component of effective incident response.
+- Reviewing previous investigations strengthens both technical understanding and reporting quality.
+- Lessons learned support continuous improvement of future incident response efforts.
+- Maintaining an incident handler's journal creates a lasting professional record of technical growth and practical cybersecurity experience.
+
 
 
