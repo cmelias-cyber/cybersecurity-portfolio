@@ -1,8 +1,10 @@
 # Incident Handler's Journal
 
-**Date:** July 30, 2026
+---
 
-**Entry:** #1
+# Journal Entry #1
+
+**Date:** July 30, 2026
 
 ---
 
