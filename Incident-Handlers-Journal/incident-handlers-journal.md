@@ -1,5 +1,7 @@
 # Incident Handler's Journal
 
+*A professional journal documenting incident investigations, technical analyses, and lessons learned completed throughout the Google Cybersecurity Professional Certificate.*
+
 ---
 
 # Journal Entry #1
@@ -227,7 +229,7 @@ The employee received the email at **1:11 p.m.**, opened the attachment at **1:1
 
 ## Where
 
-The incident occurred on an employee's workstation within a financial services organization after a malicious email attachment was executed. :contentReference[oaicite:4]{index=4}
+The incident occurred on an employee's workstation within a financial services organization after a malicious email attachment was executed.
 
 ---
 
