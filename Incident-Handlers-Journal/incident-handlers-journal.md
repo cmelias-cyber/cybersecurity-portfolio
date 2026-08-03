@@ -358,5 +358,25 @@ The incident handler's journal was reviewed to verify the accuracy, completeness
 - Lessons learned support continuous improvement of future incident response efforts.
 - Maintaining an incident handler's journal creates a lasting professional record of technical growth and practical cybersecurity experience.
 
+---
+
+# Reflections / Notes
+
+## 1. Were there any specific activities that were challenging for you? Why or why not?
+
+The activities involving packet analysis with Wireshark and malware investigation using VirusTotal were initially the most challenging because they required interpreting unfamiliar technical information and understanding how different protocols, indicators of compromise, and investigative techniques fit together. As I progressed through the exercises, I became more comfortable analyzing packet data, validating security alerts, and documenting technical findings in a structured manner.
+
+---
+
+## 2. Has your understanding of incident detection and response changed since taking this course?
+
+Yes. Before taking this course, I viewed incident response primarily as reacting to security events after they occurred. Through the course activities, I developed a broader understanding of the NIST Incident Response Lifecycle and the importance of preparation, detection, analysis, containment, recovery, documentation, and post-incident review. I now better appreciate how technical investigations, communication, and thorough documentation work together to support an effective incident response process.
+
+---
+
+## 3. Was there a specific tool or concept that you enjoyed the most? Why?
+
+Wireshark was the tool I found most engaging because it provided direct visibility into network communications and demonstrated how packet analysis supports security investigations. Examining protocol layers, applying display filters, and interpreting packet data reinforced the importance of understanding network traffic when validating alerts and investigating suspicious activity. The experience also strengthened my interest in network security and incident analysis.
+
 
 
