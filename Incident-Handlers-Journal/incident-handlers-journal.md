@@ -10,14 +10,6 @@
 - [Journal Entry #4 — Journal Review and Finalization](#journal-entry-4)
 - [Reflections / Notes](#reflections--notes)
 
-## Journal Index
-
-- [Journal Entry #1 — Ransomware Incident Investigation](#journal-entry-1)
-- [Journal Entry #2 — Network Packet Analysis with Wireshark](#journal-entry-2)
-- [Journal Entry #3 — Suspicious File Hash Investigation with VirusTotal](#journal-entry-3)
-- [Journal Entry #4 — Journal Review and Finalization](#journal-entry-4)
-- [Reflections / Notes](#reflections--notes)
-
 
 ---
 
