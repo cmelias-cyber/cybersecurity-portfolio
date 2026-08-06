@@ -32,7 +32,7 @@ The Python script uses:
 
 Automating access control maintenance supports least-privilege principles by ensuring that unauthorized systems do not retain access to restricted resources. This project demonstrates how Python can be used to improve security operations efficiency and reduce manual administrative errors.
 
-## Files
+## Project Files
 
 - `update_allow_list.py` — Python automation script
 - `README.md` — Project documentation
