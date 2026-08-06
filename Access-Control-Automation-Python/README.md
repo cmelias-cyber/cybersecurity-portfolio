@@ -32,6 +32,10 @@ The Python script uses:
 
 Automating access control maintenance supports least-privilege principles by ensuring that unauthorized systems do not retain access to restricted resources. This project demonstrates how Python can be used to improve security operations efficiency and reduce manual administrative errors.
 
+## Summary
+
+This project demonstrates how Python can automate access control maintenance by updating an IP address allow list. The algorithm reads an existing allow list, converts the file contents into a list structure, and compares entries against a removal list. Unauthorized IP addresses are identified and removed before the updated list is written back to the original file. This workflow demonstrates how Python can support security operations by improving accuracy, reducing manual effort, and reinforcing least-privilege access control practices.
+
 ## Project Files
 
 - `update_allow_list.py` — Python automation script
