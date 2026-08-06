@@ -32,3 +32,6 @@ This project demonstrates practical skills in network traffic analysis, firewall
 
 ## Project Files
 - [icmp-dos-incident-response-analysis.md](icmp-dos-incident-response-analysis.md) → Full incident report and NIST CSF breakdown
+- ## Project Files
+
+- [update-allow-list.py](https://github.com/cmelias-cyber/cybersecurity-portfolio/blob/main/Access-Control-Automation-with-Python/update-allow-list.py) → Python script automating IP allow list updates
