@@ -39,4 +39,3 @@ This project demonstrates how Python can automate access control maintenance by 
 ## Project Files
 
 - [update-allow-list.py](https://github.com/cmelias-cyber/cybersecurity-portfolio/blob/main/Access-Control-Automation-with-Python/update-allow-list.py) → Python script implementing access control automation
-- [README.md](https://github.com/cmelias-cyber/cybersecurity-portfolio/blob/main/Access-Control-Automation-with-Python/README.md) → Project overview, methodology, and security relevance
