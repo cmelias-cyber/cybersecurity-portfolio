@@ -1,13 +1,12 @@
-## Professional Statement 
+# Professional Statement
 
 ## Overview
-This folder contains my portfolio artifact for the activity:
 
-**Drafting a Professional Statement** _from the Google Cybersecurity Certificate program._
+This directory contains my professional statement, originally developed as part of the Google Cybersecurity Certificate program.
 
-It includes a short professional statement introducing my strengths, values, and interest in cybersecurity. This statement reflects my motivation to enter the cybersecurity field and focus on protecting systems and sensitive information.
+The statement introduces my strengths, professional values, and commitment to protecting systems, data, and organizational assets. It also describes my developing interest in the intersection of cybersecurity, AI security, and AI safety.
 
-This document will be updated throughout the program as my skills and knowledge grow. 
+This statement will continue to evolve as I expand my technical skills, deepen my knowledge, and gain experience addressing emerging security risks.
 
 ---
 
