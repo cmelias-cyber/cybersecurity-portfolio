@@ -2,6 +2,8 @@
 
 This portfolio documents hands-on cybersecurity projects focused on security operations, network defense, vulnerability assessment, incident response, system security, and automation.
 
+concrete evidence of technical discipline, structured documentation, and security fundamentals. In this repository, I have been documenting cybersecurity directories that demonstrate hands-on experience with access control, risk assessment, and system hardening. This directly reinforces concepts related to security access controls, API rate limits, and prompt-injection defense.
+
 ## Network Security
 
 - [ICMP DoS Incident Response Analysis](Network-Security/ICMP-DoS-Incident-Response-Analysis)
