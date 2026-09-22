@@ -2,7 +2,7 @@
 
 This portfolio documents hands-on cybersecurity projects focused on security operations, network defense, vulnerability assessment, incident response, system security, and automation.
 
-It offers concrete evidence of technical discipline, structured documentation, and security fundamentals. The cybersecurity directories I have been documenting in this repository demonstrate hands-on experience with access control, risk assessment, and system hardening. This content directly reinforces concepts related to security access controls, API rate limits, and prompt-injection defense.
+Each project directory in this repository contains practical security documentation, technical analysis, or code demonstrating applied cybersecurity skills. Together, these projects provide evidence of experience with access control, network traffic analysis, risk assessment, incident handling, security auditing, system hardening, SIEM alert investigation, SQL filtering, and Python automation.
 
 ## Network Security
 
